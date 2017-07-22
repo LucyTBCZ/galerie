@@ -1,0 +1,146 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: Arial;
+}
+
+#background-title {
+	color: black;
+	border-color: 1px solid white;
+	border-radius: 10px;
+	text-align: center;
+	background-image: url("https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg")
+}
+
+p {
+	font-style: oblique;
+}
+
+#slider { width: 80%; max-width: 500px; overflow: hidden; margin:auto; border:1px solid white;
+  border-radius: 10px; display: block; }
+
+#slider figure {
+  position: relative; 
+  width: 500%;
+  margin:auto;
+  padding: auto;
+  animation: 30s slidy infinite;
+}
+
+#slider figure img { width: 20%; height: auto; float: left; }
+
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+}
+.menublock {
+	margin-top:30px;
+	margin-left:auto;
+	margin-bottom:auto;
+	margin-right:auto;
+	padding:auto;
+}
+
+#un {
+  border-radius: 10px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  background: url("https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg");
+  padding: 10px 20px 10px 20px;
+  border: solid #0c0d0d 1px;
+  text-decoration: none;
+}
+
+#un:hover {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #0f0f0f);
+  background-image: -moz-linear-gradient(top, #ffffff, #0f0f0f);
+  background-image: -ms-linear-gradient(top, #ffffff, #0f0f0f);
+  background-image: -o-linear-gradient(top, #ffffff, #0f0f0f);
+  background-image: linear-gradient(to bottom, #ffffff, #0f0f0f);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#deux {
+  border-radius: 10px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  background: url("https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg");
+  padding: 10px 20px 10px 20px;
+  border: solid #0c0d0d 1px;
+  text-decoration: none;
+}
+
+#deux:hover {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #0f0f0f);
+  background-image: -moz-linear-gradient(top, #ffffff, #0f0f0f);
+  background-image: -ms-linear-gradient(top, #ffffff, #0f0f0f);
+  background-image: -o-linear-gradient(top, #ffffff, #0f0f0f);
+  background-image: linear-gradient(to bottom, #ffffff, #0f0f0f);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#trois {
+  border-radius: 10px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  background: url("https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg");
+  padding: 10px 20px 10px 20px;
+  border: solid #0c0d0d 1px;
+  text-decoration: none;
+}
+
+#trois:hover {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #0f0f0f);
+  background-image: -moz-linear-gradient(top, #ffffff, #0f0f0f);
+  background-image: -ms-linear-gradient(top, #ffffff, #0f0f0f);
+  background-image: -o-linear-gradient(top, #ffffff, #0f0f0f);
+  background-image: linear-gradient(to bottom, #ffffff, #0f0f0f);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#quatre {
+  border-radius: 10px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  background: url("https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg");
+  padding: 10px 20px 10px 20px;
+  border: solid #0c0d0d 1px;
+  text-decoration: none;
+}
+
+#quatre:hover {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #0f0f0f);
+  background-image: -moz-linear-gradient(top, #ffffff, #0f0f0f);
+  background-image: -ms-linear-gradient(top, #ffffff, #0f0f0f);
+  background-image: -o-linear-gradient(top, #ffffff, #0f0f0f);
+  background-image: linear-gradient(to bottom, #ffffff, #0f0f0f);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#Presentation {
+	display: none;
+}
